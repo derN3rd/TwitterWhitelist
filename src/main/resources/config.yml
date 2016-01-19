@@ -1,0 +1,51 @@
+TwitterWhitelist:
+  MySQL:
+    Host: localhost
+    Port: 3306
+    DB: minecraftDB
+    User: minecraft
+    Pass: mojang
+  Twitter:
+    ConsumerKey: fsd87fsgdfbf3wfgsdv7w
+    ConsumerSecret: JVuvVu77vuiVUZ5e45789gHJV57vJHVh8H4rE35Z
+  SendTweetAfterRegistration: true
+  Language: de
+ lang:
+   de:
+     permerror: "Das darfst du nicht :c"
+     unknownerror: "Es ist ein Fehler aufgetreten. Bitte versuche es später erneut oder kontaktiere einen Admin."
+     register1: "Bitte klicke auf folgenden Link um dein Twitter Account zu bestätigen"
+     registerlink: "---------------->Hier klicken!<----------------"
+     registerlinkhover: "Klicke hier, um dein Account zu bestätigen!"
+     registerlink2: "Gib danach den Code den du erhältst mit folgendem Befehl ein"
+     registererrorcode: "Twitter Fehler. Bitte versuche es später erneut oder kontaktiere einen Admin"
+     registertweet: "Ich habe mich gerade auf dem Minecraft-Server http://mc-nebel.de registriert!"
+     confirmnotregistered: "Bitte benutze zuerst /tww r um dich zu registrieren."
+     registersuccess: "Du hast dein Account erfolgreich mit Twitter verbunden und bist nun auf der Whitelist. Viel Spaß beim Spielen!"
+     usertwitter: "Klicke hier um Twitter zu besuchen!"
+     messagenotwhitelisted: "hat sein/ihr Account noch nicht mit Twitter verknüpft"
+     adminrmusersucc: "wurde aus der DB entfernt."
+     adminrmusererr: "wurde nicht gefunden."
+     adminrmofflineusersucc: "(Offline) wurde aus der DB entfernt."
+     adminrmofflineusererr: "(Offline) wurde nicht gefunden."
+     statsusercount: "Useranzahl der Whitelist"
+     statslastupdated: "Letzter geupdateter User"
+     statstime: "Zeit"
+     stats: "Statistiken"
+   en:
+     permerror: "You can't do that"
+     unknownerror: "Something went wrong. Please try later again or contact the admin"
+     register1: "Please click on the following link to link your account with Twitter"
+     registerlink: "----------------->Click here!<-----------------"
+     registerlinkhover: "Click here to verify your account!"
+     registerlink2: "Please enter the code you got from Twitter like"
+     registererrorcode: "Twitter error. Please try later again or contact the admin"
+     registertweet: "I just registered on the Minecraft server http://mc-nebel.de"
+     confirmnotregistered: "Please use /tww r first to register"
+     registersuccess: "You've successfully registered your account! Have fun playing"
+     usertwitter: "Click here to visit Twitter!"
+     messagenotwhitelisted: "did not link his account account with Twitter"
+     adminrmusersucc: "was successfully removed from the db."
+     adminrmusererr: "was not found."
+     adminrmofflineusersucc: "(offline) was successfully removed from the db."
+     adminrmofflineusererr: "(offline) was not found."

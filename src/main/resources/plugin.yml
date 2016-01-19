@@ -1,0 +1,27 @@
+name: TwitterWhitelist
+main: de.maxfehmer.TwitterWhitelist.MainClass
+version: 1.0
+author: derN3rd
+
+commands:
+  tww:
+    description: Show info about TwitterWhitelist
+  twitter:
+    description: Shows info about a user from Twitter
+
+permissions:
+  TwitterWhitelist.*:
+    description: Zugang zu allen Tww Befehlen
+    children:
+      TwitterWhitelist.Admin: true
+      TwitterWhitelist.IgnoreWhitelist: true
+      TwitterWhitelist.Lookup: true
+  TwitterWhitelist.Admin:
+    description: Zugang zu den Admin Befehlen fuer Tww
+    default: op
+  TwitterWhitelist.IgnoreWhitelist:
+    description: Kann unwhitelisted alles tun
+    default: false
+  TwitterWhitelist.Lookup:
+    description: Kann Twitternamen anzeigen lassen
+    default: true
